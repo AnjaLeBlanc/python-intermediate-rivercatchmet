@@ -21,4 +21,4 @@ jobs:
 
       - name: Test with PyTest
         run: |
-          python -m pytest --cov=catchmet.models tests/test_model.py
+          python3 -m pytest --cov=catchment.models tests/test_models.py
