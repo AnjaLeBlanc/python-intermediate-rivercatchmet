@@ -25,6 +25,7 @@ def main(args):
         
         views.visualize(view_data)
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='A basic environmental data management system')
